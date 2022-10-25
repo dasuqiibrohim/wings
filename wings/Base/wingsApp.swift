@@ -11,7 +11,9 @@ import SwiftUI
 struct wingsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BaseView {
+                LoginView()
+            }
         }
     }
 }
